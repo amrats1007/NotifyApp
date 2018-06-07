@@ -1,0 +1,314 @@
+/*
+*** Template Name: NotifyApp
+*** Template Version: 1.0
+*** Template URL: https://sufferable-wire.000webhostapp.com/
+*** Contact Me: Amr Abdelghani | amrats1007@gmail.com | 00201020100656
+*/
+
+/* start framework */
+
+.container
+{
+    width: 1170px;
+    margin: auto;
+}
+
+*, *:after, *:before
+{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/DancingScript-Regular.ttf");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+
+/* end framework */
+
+/* start slider */
+
+header
+{
+    background: url("../images/slider.jpg") fixed;
+    background-size : cover;
+    height: 770px;
+}
+
+header h1
+{
+    margin: 0 0 50px 0;
+    padding-top: 175px;
+    color : #FFF;
+    font-size: 125px;
+    font-weight: 400;
+    font-family: 'Dancing Script', cursive;
+}
+
+header h1 span
+{
+    color: rgb(25,141,155);
+    font-size: 125px;
+}
+
+header p
+{
+    color: #fff;
+    font-size: 24px;
+    font-family: sans-serif;
+    margin: 0 0 50px 0;
+    padding-bottom: 10px;
+}
+
+header section div
+{
+    display: inline-block;
+    margin: 0 15px 0 0;
+    font-size: 25px;
+    color : #fff;
+    cursor: pointer;
+    padding: 15px;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 50%;
+}
+
+header section div:hover
+{
+    color : rgb(25,141,155);
+}
+
+/* end slider */
+
+/* start features */
+
+.features
+{
+    overflow: auto;
+    padding: 50px 0;
+    font-family: sans-serif;
+}
+
+.features section
+{
+    float: left;
+    width: 33.33333333%;
+    text-align: center;
+}
+
+.features section div
+{
+    background-color: rgb(25,141,155);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.features section i
+{
+    color: #FFFFFF;
+    font-size: 50px;
+    line-height: 100px;
+}
+
+.features section h2
+{
+    font-weight: 500;
+}
+
+.features section p
+{
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: #888;
+}
+
+/* end features */
+
+/* start updates */
+
+.updates
+{
+    overflow: auto;
+    background-color: rgb(227,227,227);
+    font-family: sans-serif;
+    padding: 50px 0;
+}
+
+.updates section
+{
+    float: left;
+    width: 50%;
+}
+
+.updates section h2
+{
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.updates section p
+{
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: #888;
+    text-align: justify;
+    margin-bottom: 50px;
+    width: 500px;
+}
+
+.updates section input
+{
+    padding: 15px;
+    background-color: #FFFFFF;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid #ccc;
+    width: 300px;
+}
+
+.updates section button
+{
+    padding: 15px;
+    border: 0;
+    background-color: rgb(25,141,155);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100px;
+    display: inline-block;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    position: relative;
+    left: -6px;
+    cursor: pointer;
+}
+
+.updates section button:hover
+{
+    background-color: rgb(255,255,255);
+    color: rgb(25,141,155);
+    border: 1px solid rgb(25,141,155);
+}
+
+.updates section img
+{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+/* end updates */
+
+/* start testimonials */
+
+.testimonials
+{
+    text-align: center;
+    padding: 50px 0;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.testimonials blockquote
+{
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: #888;
+    font-style: italic;
+    width: 750px;
+    margin: auto;
+}
+
+.testimonials h3
+{
+    margin-top: 50px;
+}
+
+.testimonials h3 + section img
+{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    opacity: 0.5;
+}
+
+.active
+{
+    opacity: 1 !important;
+}
+
+.testimonials h3 + section img:hover
+{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.testimonials section:first-of-type
+{
+    margin-bottom: 50px;
+}
+
+.testimonials h2
+{
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.testimonials p
+{
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: #888;
+}
+
+.testimonials section:last-of-type div
+{
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    display: inline-block;
+}
+
+.testimonials section:last-of-type div i
+{
+    color: rgba(255,255,255,1);
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.testimonials section:last-of-type div:hover
+{
+    background-color: rgb(25,141,155);
+    cursor: pointer;
+}
+
+/* end testimonials */
+
+/* start footer */
+
+footer
+{
+    background-color: rgb(227,227,227);
+    text-align: center;
+    padding: 50px 0;
+}
+
+footer a
+{
+    text-decoration: none;
+    color: #888;
+    font-size: 20px;
+    margin: 0 20px 0 0;
+}
+
+footer a:hover
+{
+    text-decoration: underline;
+}
+
+/* end footer */
